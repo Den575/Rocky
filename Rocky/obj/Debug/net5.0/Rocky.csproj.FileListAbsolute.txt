@@ -428,3 +428,5 @@ C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\runtimes\win-arm64\lib\
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\runtimes\win7-x86\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Create.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Index.cshtml.g.cs

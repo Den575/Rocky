@@ -1,14 +1,13 @@
-﻿@model Category
+﻿@model ApplicationType
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Application Type";
 }
 
-<form method="post" asp-controller="Category" asp-action="Create">
+<form method="post" asp-controller="ApplicationType" asp-action="Create">
     <div class="border p-3">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
         <div class="form-group row">
-            <h2 class="text-info pl-3">Add Category</h2>
+            <h2 class="text-info pl-3">Add Application Type</h2>
         </div>
         <div class="row">
             <div class="col-8">
@@ -18,20 +17,10 @@
                     </div>
                     <div class="col-8">
                         <input asp-for="Name" class="form-control"/>
-                        <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
 
                 </div>
-                <div class="form-group row">
-                    <div class="col-4">
-                        <label asp-for="DisplayOrder"></label>
-                    </div>
-                    <div class="col-8">
-                        <input asp-for="DisplayOrder" class="form-control" />
-                        <span asp-validation-for="DisplayOrder" class="text-danger"></span>
-                    </div>
-
-                </div>
+              
                 <div class="form-group row">
                     <div class="col-8 offset-4 row">
 
@@ -39,7 +28,7 @@
                             <input type="submit" class="btn btn-info w-100" value="Create" />
                         </div>
                         <div class="col">
-                            <a asp-action="Index" class="btn btn-success w-100" >Back</a>
+                            <a asp-controller="ApplicationType" asp-action="Index" class="btn btn-success w-100" >Back</a>
                         </div>
                     </div>
                 </div>

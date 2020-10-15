@@ -10,6 +10,7 @@ namespace Rocky.Data
     public class ApplicationDbContext:DbContext
     {
         public DbSet<Category> Category { get; set; }
+        public DbSet<ApplicationType> ApplicationType { get; set; }
 
         //ctor + 2x tab
         //prop + 2x tab
