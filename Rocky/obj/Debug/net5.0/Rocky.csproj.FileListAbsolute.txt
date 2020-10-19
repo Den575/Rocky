@@ -431,3 +431,4 @@ C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Cr
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Create.cshtml.g.cs
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Index.cshtml.g.cs
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs

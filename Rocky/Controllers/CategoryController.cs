@@ -76,15 +76,16 @@ namespace Rocky.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete(Category obj)
+        public IActionResult DeletePost(int? id)
         {
-            if (ModelState.IsValid)
+            Category obj = _db.Category.Find(id);
+            if(obj is null)
             {
-                _db.Category.Update(obj);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                return NotFound();
             }
-            return View();
+            _db.Category.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
 
