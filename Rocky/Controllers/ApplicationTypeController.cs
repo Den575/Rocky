@@ -19,8 +19,8 @@ namespace Rocky.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<ApplicationType> ObjApplicationType = _db.ApplicationType;
-            return View(ObjApplicationType);
+            IEnumerable<ApplicationType> ObjCategory = _db.ApplicationType;
+            return View(ObjCategory);
         }
 
         [HttpGet]
@@ -29,13 +29,81 @@ namespace Rocky.Controllers
             return View();
         }
 
+
+        public IActionResult Edit(int? id)
+        {
+            if (id is null or 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.ApplicationType.Find(id);
+            if (obj is null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(ApplicationType obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.ApplicationType.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+
+        public IActionResult Delete(int? id)
+        {
+            if (id is null or 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.ApplicationType.Find(id);
+            if (obj is null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            ApplicationType obj = _db.ApplicationType.Find(id);
+            if (obj is null)
+            {
+                return NotFound();
+            }
+            _db.ApplicationType.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(ApplicationType obj)
         {
-            _db.ApplicationType.Add(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _db.ApplicationType.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(obj);
+            }
+
         }
     }
 }
