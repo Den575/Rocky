@@ -14,12 +14,12 @@ namespace Rocky.Models
         [Required]
         public string Name { get; set; }
         public string Description { get; set; }
-        [Required]
-        [Range(1,int.MinValue)]
+        //[Range(1,int.MinValue)]
         public double Price { get; set; }
+        public string Image { get; set; }
         [Display(Name="Category Type")]
         public int CategoryId { get; set; }
-        [ForeignKey("CategoryType")]
+        [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
     }
 }

@@ -434,3 +434,5 @@ C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.pdb
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.genruntimeconfig.cache
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Delete.cshtml.g.cs
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Edit.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Product\Upsert.cshtml.g.cs
