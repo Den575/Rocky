@@ -26,8 +26,15 @@ using Rocky.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\kursi\source\repos\Rocky\Rocky\Views\_ViewImports.cshtml"
+using Rocky.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7be034e18af878c925b8614a56a07183f7bd7838", @"/Views/ApplicationType/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b059994bcc2ab1f1ae0b9dc2d2eeafca20010c77", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3fa05f4e6f1b0960d0828443d681236ea726243a", @"/Views/_ViewImports.cshtml")]
     public class Views_ApplicationType_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<ApplicationType>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -70,7 +77,7 @@ using Rocky.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"container p-3\">\r\n    <div class=\"row pt-4\">\r\n        <div class=\"col-6\">\r\n            <h2 class=\"text-primary\">Application Type List</h2>\r\n        </div>\r\n        \r\n        <div class=\"col-6 text-right\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7be034e18af878c925b8614a56a07183f7bd78385820", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7be034e18af878c925b8614a56a07183f7bd78385991", async() => {
                 WriteLiteral("<i class=\"fas fa-plus\"></i> &nbsp; Create new Application Type");
             }
             );
@@ -123,7 +130,7 @@ using Rocky.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                        <td class=\"text-center\">\r\n                            <div class=\"btn-group\" role=\"group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7be034e18af878c925b8614a56a07183f7bd78388443", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7be034e18af878c925b8614a56a07183f7bd78388614", async() => {
                 WriteLiteral("<i class=\"far fa-edit\"></i>");
             }
             );
@@ -157,7 +164,7 @@ using Rocky.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7be034e18af878c925b8614a56a07183f7bd783810961", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7be034e18af878c925b8614a56a07183f7bd783811132", async() => {
                 WriteLiteral("<i class=\"fas fa-trash-alt\"></i>");
             }
             );

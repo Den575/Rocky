@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Rocky.Data;
 using Rocky.Models;
+using Rocky.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,39 +39,49 @@ namespace Rocky.Controllers
         [HttpGet]
         public IActionResult Upsert(int? id)
         {
-            IEnumerable<SelectListItem> CategoryDropDown = _db.Category.Select(i => new SelectListItem
-            {
-                Text = i.Name,
-                Value = i.Id.ToString()
-            });
+            //    IEnumerable<SelectListItem> CategoryDropDown = _db.Category.Select(i => new SelectListItem
+            //    {
+            //        Text = i.Name,
+            //        Value = i.Id.ToString()
+            //    });
 
-            ViewBag.CategoryDropDown = CategoryDropDown;
-            Product product = new Product();
+            //    ViewBag.CategoryDropDown = CategoryDropDown;
+            //    Product product = new Product();
+
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategorySelectList = _db.Category.Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                })
+            };
+
             if (id == null)
             {
                 //this is for create
-                return View(product);
+                return View(productVM);
             }
             else
             {
-                product = _db.Product.Find(id);
-                if(product is null)
+                productVM.Product = _db.Product.Find(id);
+                if(productVM.Product is null)
                 {
                     return NotFound();
                 }
             }
-            return View(product);
+            return View(productVM);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Category obj)
+        public IActionResult Upsert(ProductVM obj)
         {
             if (ModelState.IsValid)
             {
-                _db.Category.Update(obj);
-                _db.SaveChanges();
+                
                 return RedirectToAction("Index");
             }
             return View();
