@@ -7,6 +7,6 @@ namespace Rocky
 {
     public static class WC
     {
-        public static string ImagePaht = @"\images\product\";
+        public static string ImagePath = @"\images\product\";
     }
 }
