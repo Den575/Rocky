@@ -131,8 +131,6 @@ C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensio
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -435,3 +433,8 @@ C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.csproj.CopyComple
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\staticwebassets\Rocky.StaticWebAssets.Manifest.cache
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\staticwebassets\Rocky.StaticWebAssets.xml
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.genruntimeconfig.cache
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.csprojAssemblyReference.cache
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs

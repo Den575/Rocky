@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Rocky.Data;
 using Rocky.Models;
 using System;
@@ -19,13 +20,15 @@ namespace Rocky.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<ApplicationType> ObjCategory = _db.ApplicationType;
-            return View(ObjCategory);
+            IEnumerable<ApplicationType> obj = _db.ApplicationType;
+            return View(obj);
         }
 
         [HttpGet]
         public IActionResult Create()
         {
+            //Stworzyć ViewModel aplication type z category i dodać do View create
+
             return View();
         }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nNmTBH8+X2oqNPuL+kaLx3v02TMfzVKABidiUsKz/6E9u5DUg+LkC//yJs+EvtiyC6crKACMOsh1t2rcEh5y+g==",
+  "dgSpecHash": "QoPMgMd5wjKpwBXkTwF6I2oy9KBi0Ve6KupoD0SFzx2TY2oP3B2EPZ+zHoacz8db3C65j6MEA33MZ4OwWAkQeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kursi\\source\\repos\\Rocky\\Rocky\\Rocky.csproj",
   "expectedPackageFiles": [
@@ -9,14 +9,14 @@
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.0-rc.1.20451.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.0-rc.1.20451.17.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.0-rc.1.20451.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.0-rc.1.20451.17.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0-rc.1.20451.17\\microsoft.aspnetcore.razor.language.5.0.0-rc.1.20451.17.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0-rc.2.20475.17\\microsoft.aspnetcore.razor.language.5.0.0-rc.2.20475.17.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.7.0\\microsoft.codeanalysis.common.3.7.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.7.0\\microsoft.codeanalysis.csharp.3.7.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\3.7.0\\microsoft.codeanalysis.csharp.workspaces.3.7.0.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.0-rc.1.20451.17\\microsoft.codeanalysis.razor.5.0.0-rc.1.20451.17.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.0-rc.2.20475.17\\microsoft.codeanalysis.razor.5.0.0-rc.2.20475.17.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.7.0\\microsoft.codeanalysis.workspaces.common.3.7.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.0-preview1.20021.1\\microsoft.data.sqlclient.2.0.0-preview1.20021.1.nupkg.sha512",
@@ -32,8 +32,8 @@
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0-preview.2.20160.3\\microsoft.extensions.configuration.5.0.0-preview.2.20160.3.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.configuration.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0-preview.2.20160.3\\microsoft.extensions.configuration.binder.5.0.0-preview.2.20160.3.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-rc.1.20451.14\\microsoft.extensions.dependencyinjection.5.0.0-rc.1.20451.14.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-rc.1.20451.14\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-rc.2.20475.5\\microsoft.extensions.dependencyinjection.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-rc.2.20475.5\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-rc.2.20475.5.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0-rc.1.20451.14\\microsoft.extensions.dependencymodel.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0-preview.2.20160.3\\microsoft.extensions.logging.5.0.0-preview.2.20160.3.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.logging.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
@@ -47,14 +47,14 @@
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.contracts.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.core.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.design.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.templating.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegeneration.utils.5.0.0-rc.1.20453.2.nupkg.sha512",
-    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.0-rc.1.20453.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.0-rc.1.20453.2.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.contracts.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.core.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.design.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.templating.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegeneration.utils.5.0.0-rc.2.20516.1.nupkg.sha512",
+    "C:\\Users\\kursi\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.0-rc.2.20516.1\\microsoft.visualstudio.web.codegenerators.mvc.5.0.0-rc.2.20516.1.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
@@ -166,16 +166,5 @@
     "C:\\Users\\kursi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\kursi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Element Microsoft.VisualStudio.Web.CodeGeneration 5.0.0-rc.1.20453.2 zależy od elementu Microsoft.Extensions.DependencyInjection (>= 5.0.0-rc.1.20451.2), ale nie znaleziono elementu Microsoft.Extensions.DependencyInjection 5.0.0-rc.1.20451.2. Najlepsze rozpoznane przybliżone dopasowanie to Microsoft.Extensions.DependencyInjection 5.0.0-rc.1.20451.14.",
-      "libraryId": "Microsoft.Extensions.DependencyInjection",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
