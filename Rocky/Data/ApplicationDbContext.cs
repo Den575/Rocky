@@ -14,6 +14,8 @@ namespace Rocky.Data
         public DbSet<ApplicationType> ApplicationType { get; set; }
         public DbSet<Product> Product { get; set; }
 
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
 
         //ctor + 2x tab
         //prop + 2x tab
