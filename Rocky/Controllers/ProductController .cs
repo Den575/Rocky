@@ -69,7 +69,7 @@ namespace Rocky.Controllers
             else
             {
                 productVM.Product = _db.Product.Find(id);
-                if(productVM.Product is null)
+                if(productVM.Product == null)
                 {
                     return NotFound();
                 }
@@ -151,12 +151,12 @@ namespace Rocky.Controllers
         [HttpGet]
         public IActionResult Delete(int? id)
         {
-            if (id is null or 0)
+            if (id == null || id== 0)
             {
                 return NotFound();
             }
             Product obj = _db.Product.Include(u=>u.Category).Include(u=>u.ApplicationType).FirstOrDefault(u=>u.Id==id);
-            if (obj is null)
+            if (obj == null)
             {
                 return NotFound();
             }
@@ -169,7 +169,7 @@ namespace Rocky.Controllers
         public IActionResult DeletePost(int? id)
         {
             var obj = _db.Product.Find(id);
-            if(obj is null)
+            if(obj == null)
             {
                 return NotFound();
             }

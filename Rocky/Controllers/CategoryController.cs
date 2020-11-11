@@ -32,7 +32,7 @@ namespace Rocky.Controllers
 
         public IActionResult Edit(int? id)
         {
-            if(id is null or 0)
+            if(id == null || id== 0)
             {
                 return NotFound();
             }
@@ -61,7 +61,7 @@ namespace Rocky.Controllers
 
         public IActionResult Delete(int? id)
         {
-            if (id is null or 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
@@ -79,7 +79,7 @@ namespace Rocky.Controllers
         public IActionResult DeletePost(int? id)
         {
             Category obj = _db.Category.Find(id);
-            if(obj is null)
+            if(obj == null)
             {
                 return NotFound();
             }
