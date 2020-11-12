@@ -31,7 +31,8 @@ namespace Rocky
             services.AddHttpContextAccessor();
             services.AddDistributedMemoryCache();
 
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             
             services.AddSession(Options =>
