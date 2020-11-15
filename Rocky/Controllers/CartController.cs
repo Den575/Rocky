@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+=======
+﻿using Microsoft.AspNetCore.Http;
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
 =======
 ﻿using Microsoft.AspNetCore.Http;
 >>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
@@ -8,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Rocky.Data;
 using Rocky.Models;
 using Rocky.Utility;
+<<<<<<< HEAD
 <<<<<<< HEAD
 using Rocky.ViewModels;
 using System;
@@ -19,10 +24,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 >>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
+=======
+using System;
+using System.Collections.Generic;
+using System.Linq;
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
 using System.Threading.Tasks;
 
 namespace Rocky.Controllers
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     [Authorize]
     public class CartController : Controller
@@ -35,6 +46,11 @@ namespace Rocky.Controllers
     {
         ApplicationDbContext _db;
 >>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
+=======
+    public class CartController : Controller
+    {
+        ApplicationDbContext _db;
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
 
         public CartController(ApplicationDbContext db)
         {
@@ -42,16 +58,22 @@ namespace Rocky.Controllers
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         [HttpGet]
         public IActionResult Index()
         {
             List<ShoppingCart> shoppingCartsList = new List<ShoppingCart>();
             if (HttpContext.Session.Get<IEnumerable<ShoppingCart>>(WC.SessionCard) != null &&
 =======
+=======
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
         public IActionResult Index()
         {
             List<ShoppingCart> shoppingCartsList = new List<ShoppingCart>();
             if(HttpContext.Session.Get<IEnumerable<ShoppingCart>>(WC.SessionCard)!=null &&
+<<<<<<< HEAD
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
+=======
 >>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
                 HttpContext.Session.Get<IEnumerable<ShoppingCart>>(WC.SessionCard).Count() > 0)
             {
@@ -62,6 +84,7 @@ namespace Rocky.Controllers
             return View(prodList);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -96,6 +119,8 @@ namespace Rocky.Controllers
             return View(ProductUserVM);
         }
 
+=======
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
 =======
 >>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
         public IActionResult Remove(int id)
