@@ -488,4 +488,7 @@ C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.pdb
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.genruntimeconfig.cache
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.csprojAssemblyReference.cache
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
+=======
+>>>>>>> 7810362b0766bbbe13bb0c543ceba226821bb7f3
