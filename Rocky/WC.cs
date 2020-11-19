@@ -7,10 +7,10 @@ namespace Rocky
 {
     public static class WC
     {
-        public static string ImagePath = @"\images\product\";
-        public static string SessionCard = "ShoppingCartSession";
-        public static string AdminRole = "Admin";
-        public static string CustomerRole = "Customer";
-        public static string EmailAdmin = "kursi4@i.ua";
+        public const string ImagePath = @"\images\product\";
+        public const string SessionCard = "ShoppingCartSession";
+        public const string AdminRole = "Admin";
+        public const string CustomerRole = "Customer";
+        public const string EmailAdmin = "kursi4@i.ua";
     }
 }
