@@ -18,6 +18,7 @@ namespace Rocky.Controllers
     public class CartController : Controller
     {
         ApplicationDbContext _db;
+        [BindProperty]
         ProductUserVM ProductUserVM { get; set; }
 
         public CartController(ApplicationDbContext db)
@@ -50,6 +51,7 @@ namespace Rocky.Controllers
             return RedirectToAction(nameof(Summary));
         }
 
+        [HttpGet]
         public IActionResult Summary()
         {
             List<ShoppingCart> shoppingCartsList = new List<ShoppingCart>();
@@ -67,12 +69,27 @@ namespace Rocky.Controllers
             ProductUserVM = new ProductUserVM()
             {
                 ApplicationUser = _db.ApplicationUsers.FirstOrDefault(u => u.Id == claim.Value),
-                ProductList = prodList
+                ProductList = prodList.ToList()
             };
        
 
             return View(ProductUserVM);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ActionName("Summary")]
+        public IActionResult Summary(ProductUserVM ProductUserVM)
+        {
+            return RedirectToAction(nameof(InquiryConfirmation));
+        }
+
+        public IActionResult InquiryConfirmation()
+        {
+            HttpContext.Session.Clear();
+            return View();
+        }
+
         public IActionResult Remove(int id)
         {
             List<ShoppingCart> shoppingCartsList = new List<ShoppingCart>();
