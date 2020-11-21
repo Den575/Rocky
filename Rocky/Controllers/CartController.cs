@@ -120,6 +120,20 @@ namespace Rocky.Controllers
         public IActionResult InquiryConfirmation()
         {
             HttpContext.Session.Clear();
+            return RedirectToAction(nameof(Payment));
+        }
+
+        [HttpGet]
+        public IActionResult Payment()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ActionName("Payment")]
+        public IActionResult PaymenttPost()
+        {
             return View();
         }
 
