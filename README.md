@@ -1,5 +1,5 @@
-"# Rocky" 
-. Net 5.0, MS SQL Server, Indentity, Entity Framework
+<h1>Flowers shop</h1> 
+ASP .NET Core MVC, . Net 5.0, MS SQL Server, Indentity, Entity Framework
 MailJet API 
 
 The project works on. Net 5.0, it is necessary to create a database and perform data migration.
