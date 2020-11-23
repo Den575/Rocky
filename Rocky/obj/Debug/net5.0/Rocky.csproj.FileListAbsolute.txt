@@ -496,3 +496,4 @@ C:\Users\kursi\source\repos\Rocky\Rocky\bin\Debug\net5.0\Mailjet.Client.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Payment.cshtml.g.cs
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\PaymenttPost.cshtml.g.cs
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\PaymentPost.cshtml.g.cs

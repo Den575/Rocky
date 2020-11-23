@@ -131,8 +131,7 @@ namespace Rocky.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [ActionName("Payment")]
-        public IActionResult PaymenttPost()
+        public IActionResult PaymentPost()
         {
             return View();
         }
