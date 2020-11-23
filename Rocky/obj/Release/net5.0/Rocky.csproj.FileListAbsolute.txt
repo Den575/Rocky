@@ -492,3 +492,4 @@ C:\Users\kursi\source\repos\Rocky\Rocky\obj\Release\net5.0\Rocky.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Release\net5.0\ref\Rocky.dll
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Release\net5.0\Rocky.pdb
 C:\Users\kursi\source\repos\Rocky\Rocky\obj\Release\net5.0\Rocky.genruntimeconfig.cache
+C:\Users\kursi\source\repos\Rocky\Rocky\obj\Release\net5.0\Rocky.csprojAssemblyReference.cache
