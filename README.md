@@ -29,5 +29,5 @@ Register Page:
 Confirm email:
 <img src = "screens/gmail.png"/>
 <img src = "screens/confirmemail.png"/>
-<img src = "screens/mail.pmg" />
+<img src = "screens/mail.png" />
 <hr>
